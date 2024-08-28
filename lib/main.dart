@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ,
       routes: {
         "/":(context) => const BottomNavBar(),
         "/all_tickets":(context) => const AllTickets(),
